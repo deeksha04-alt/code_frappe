@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="index.css" rel="stylesheet">
+  
+  <link rel="JavaScript" href="index.js">
+  <title>Document</title>
+</head>
+<body>
+  
+  <!--container for navbar-->
+
+  <div class="container">
+  <nav>
+    <a href="#" class="logo">&#x2774 code <span >Frappe</span>  &#x2775</a>
+   
+      <a class="active" href="#" id="home">Home</a>
+      
+
+        
+   
+
+  </nav>
+</div>
+
+<div class="container1">
+
+  <div class="textwebd box1" >
+    <h1>D<span>S</span>A</h1>
+   <p>Web development is the work involved in developing a website for the Internet or an intranet. 
+    Web development can range from developing a simple single static page of plain text to complex web applications, electronic businesses, and social network services.</p>
+    <a href="#frontend"><button class="button button1">FRONT<span>END  </span></button></a>
+    <a href="#backend"><button class="button button2">BACK<span>END</span></button></a>
+  </div>
+  <div class="imagewebd box1" >
+   <div class="shape">
+    <img src="https://static.vecteezy.com/system/resources/previews/011/153/370/original/3d-web-development-illustration-png.png"   alt="webd"  height="500rem" width="100%" >
+ </div>
+
+</div>
+</div>
+
+
+<a name="frontend"  ></a>
+<div class="container1" >
+
+  <div class="textwebd box1"  >
+    <h1>FRONT <span>END</span></h1>
+   <p>Front-end web development, also known as client-side development 
+    is the practice of producing HTML, CSS and JavaScript for a website or Web Application so that a 
+    user can see and interact with them directly. The challenge associated with front end development is that the tools
+     and techniques used to create the front end of a website change constantly
+     and so the developer needs to constantly be aware of how the field is developing.</p>
+     <a href="#resources"><button class="button button1">RESOUR<span>CES  </span></button></a>
+  </div>
+  <div class="image box1" >
+  
+    <img src="https://cdn3d.iconscout.com/3d/premium/thumb/web-development-5571477-4659654.png"   alt="webd"  height="auto" width="100%" >
+ 
+
+</div>
+</div>
+
+
+<a name="backend"></a>
+<div class="container2">
+  <div class="image box1" >
+  
+     <img src="https://clouddevs.com/3dbay/files/preview/1280x1067/11632330915paeeefbcjylbjysn3zxcruppbkgmwvzaxjidfuxoffbzozd7b9szn5vbz7hcuw4ev3k9n0gnh6emwncfgeibxfi3ufkoyd6kmncy.png"   alt="webd"  height="500rem" width="100%" >
+    </div>
+  <div class="textwebd box1"  >
+    <h1>BACK <span>END</span></h1>
+   <p>Web development is the work involved in developing a website for the Internet or an intranet. 
+   
+   Web development can range from developing a simple single static page of plain text to complex web applications, electronic businesses, and social network services.</p>
+   <a href="#resources"><button class="button button1">RESOUR<span>CES  </span></button></a>
+
+  </div>
+</div>
+
+
+<div class="container3">
+  <h1>RESOUR<SPAN>CES</SPAN></h1>
+
+ 
+ 
+
+
+
+<!--FRONTEND-->
+<!--
+<div class="frontend">
+  <h1>FRONTEND</h1>
+</div>
+<div class="frontend">
+  <div class="fcon1">
+
+  <div class="resource"  >
+    <h2>YOUTUBE</h2>
+    <ul>
+      <li>1</li>
+      <li>2</li>
+      <li>3</li>
+      <li>4</li>
+      <li>5</li>
+    </ul>
+  </div>
+
+  <div class="resource">
+<h2>WEBSITE</h2>
+<ul>
+  <li>1</li>
+  <li>2</li>
+  <li>3</li>
+  <li>4</li>
+  <li>5</li>
+</ul>
+  </div>
+</div>
+
+
+</div>
+
+
+<div class="backend">
+  <h1>BACKEND</h1>
+</div>
+  <div class="frontend">
+    <div class="fcon1">
+  
+    <div class="resource"  >
+      <h2>YOUTUBE</h2>
+      <ul>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+        <li>5</li>
+      </ul>
+    </div>
+  
+    <div class="resource">
+  <h2>WEBSITE</h2>
+  <ul>
+    <li>1</li>
+    <li>2</li>
+    <li>3</li>
+    <li>4</li>
+    <li>5</li>
+  </ul>
+    </div>
+  </div>
+  
+  
+  </div>
+-->
+<script>
+  var acc = document.getElementsByClassName("accordion");
+  var i;
+  
+  for (i = 0; i < acc.length; i++) {
+    acc[i].addEventListener("click", function() {
+      this.classList.toggle("active");
+      var panel = this.nextElementSibling;
+      if (panel.style.maxHeight) {
+        panel.style.maxHeight = null;
+      } else {
+        panel.style.maxHeight = panel.scrollHeight + "px";
+      } 
+    });
+  }
+  </script>
+  
+
+</body>
+
+ </script>
+</html>
